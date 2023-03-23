@@ -1,6 +1,5 @@
 export const fetchResponse = async (chat) => {
   try {
-    // after depoloyment you should change the fetch URL below
     const response = await fetch("https://server-side-theta-pied.vercel.app/", {
       method: "POST",
       headers: {
